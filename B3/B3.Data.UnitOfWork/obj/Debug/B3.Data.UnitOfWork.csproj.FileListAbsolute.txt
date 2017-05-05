@@ -1,0 +1,5 @@
+H:\Development\B3\B3\B3.Data.UnitOfWork\bin\Debug\B3.Data.UnitOfWork.dll
+H:\Development\B3\B3\B3.Data.UnitOfWork\bin\Debug\B3.Data.UnitOfWork.pdb
+H:\Development\B3\B3\B3.Data.UnitOfWork\obj\Debug\B3.Data.UnitOfWork.csprojResolveAssemblyReference.cache
+H:\Development\B3\B3\B3.Data.UnitOfWork\obj\Debug\B3.Data.UnitOfWork.dll
+H:\Development\B3\B3\B3.Data.UnitOfWork\obj\Debug\B3.Data.UnitOfWork.pdb

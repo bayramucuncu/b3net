@@ -1,0 +1,5 @@
+H:\Development\B3\B3\B3.Data.Domain\bin\Debug\B3.Data.Domain.dll
+H:\Development\B3\B3\B3.Data.Domain\bin\Debug\B3.Data.Domain.pdb
+H:\Development\B3\B3\B3.Data.Domain\obj\Debug\B3.Data.Domain.csprojResolveAssemblyReference.cache
+H:\Development\B3\B3\B3.Data.Domain\obj\Debug\B3.Data.Domain.dll
+H:\Development\B3\B3\B3.Data.Domain\obj\Debug\B3.Data.Domain.pdb
