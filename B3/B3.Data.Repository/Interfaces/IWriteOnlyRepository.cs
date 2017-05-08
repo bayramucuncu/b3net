@@ -1,5 +1,5 @@
 ﻿using System;
-using B3.Data.Domain;
+using B3.Data.Domain.Entity;
 
 namespace B3.Data.Repository.Interfaces
 {

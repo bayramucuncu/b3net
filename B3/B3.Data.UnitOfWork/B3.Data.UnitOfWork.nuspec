@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/bayramucuncu/b3net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/bayramucuncu/b3net.git</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/bayramucuncu/b3net/master/b3.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Unit of Work pattern tools.</releaseNotes>
+    <copyright>Copyright 2017 Bayram Üçüncü</copyright>
+    <tags>UnitOfWork</tags>
+  </metadata>
+</package>

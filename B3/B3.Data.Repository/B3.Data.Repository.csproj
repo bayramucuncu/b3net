@@ -52,8 +52,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="B3.Data.Repository.nuspec">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\B3.Data.Domain\B3.Data.Domain.csproj">
-      <Project>{48C90882-1FA6-40F8-9153-3C5E4B9A7439}</Project>
+      <Project>{48c90882-1fa6-40f8-9153-3c5e4b9a7439}</Project>
       <Name>B3.Data.Domain</Name>
     </ProjectReference>
   </ItemGroup>

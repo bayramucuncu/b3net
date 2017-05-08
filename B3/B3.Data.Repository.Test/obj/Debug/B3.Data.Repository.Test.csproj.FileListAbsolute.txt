@@ -1,4 +1,3 @@
-H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.Repository.Test.dll
 H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.Repository.Test.pdb
 H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.Domain.dll
 H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.Repository.dll
@@ -7,5 +6,8 @@ H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.Domain.pdb
 H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.Repository.pdb
 H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\nunit.framework.xml
 H:\Development\B3\B3\B3.Data.Repository.Test\obj\Debug\B3.Data.Repository.Test.csprojResolveAssemblyReference.cache
-H:\Development\B3\B3\B3.Data.Repository.Test\obj\Debug\B3.Data.Repository.Test.dll
 H:\Development\B3\B3\B3.Data.Repository.Test\obj\Debug\B3.Data.Repository.Test.pdb
+H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.Repository.Test.exe
+H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.UnitOfWork.dll
+H:\Development\B3\B3\B3.Data.Repository.Test\bin\Debug\B3.Data.UnitOfWork.pdb
+H:\Development\B3\B3\B3.Data.Repository.Test\obj\Debug\B3.Data.Repository.Test.exe

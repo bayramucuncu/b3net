@@ -1,61 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using B3.Data.Domain;
-using B3.Data.Repository.Interfaces;
-using NUnit.Framework;
+using System.Linq;
+using B3.Data.Domain.Entity;
+using B3.Data.Domain.Event;
+using B3.Data.Domain.Validation;
 
 namespace B3.Data.Repository.Test
 {
-    public class Product:IEntity
+    public class IcmesuyuHat : IEntity
     {
         public Guid Id { get; set; }
+        public string Adi { get; set; }
+        public int Cap { get; set; }
+        public IEnumerable<IEvent> Events { get; private set; }
     }
 
-    public class TestRepository:IReadOnlyRepository<Product>, IWriteOnlyRepository<Product>
+    public class IcmesuyuHatValidator : IValidable<IcmesuyuHat>
     {
-        public Product GetById(Guid id)
+        public bool IsValid(IcmesuyuHat entity)
         {
-            return new Product();
+            return !BrokenRules(entity).Any();
         }
 
-        public IEnumerable<Product> GetAll()
+        public IEnumerable<string> BrokenRules(IcmesuyuHat entity)
         {
-            return new List<Product>();
-        }
-
-        Product IWriteOnlyRepository<Product>.Insert(Product item)
-        {
-            return item;
-        }
-
-        public Product Update(Product item)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Product Delete(Guid id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Product Delete(Product item)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    [TestFixture]
-    public class RepositoryTest
-    {
-        [Test]
-        public void UnitOfWork_StateUnderTest_ExpectedBehavior()
-        {
-            IWriteOnlyRepository<Product> d = new TestRepository();
+            if (entity == null)
+            {
+                yield return "Hat nesnesi null olmamalıdır.";
+                yield break;
+            }
+         
+            if (string.IsNullOrEmpty(entity.Adi))
+                yield return "Hat için bir ad girilmelidir.";
             
-            var response = d.Insert(null);
-
-            Assert.That(response, Is.Not.Null);
+            if (entity.Cap <= 0)
+                yield return "Hat çapı sıfır veya daha küçük olmamalıdır.";
         }
     }
 }
