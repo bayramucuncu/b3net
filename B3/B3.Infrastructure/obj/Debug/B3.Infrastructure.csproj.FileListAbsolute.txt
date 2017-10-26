@@ -1,0 +1,5 @@
+H:\Development\B3\B3\B3.Infrastructure\bin\Debug\B3.Infrastructure.dll
+H:\Development\B3\B3\B3.Infrastructure\bin\Debug\B3.Infrastructure.pdb
+H:\Development\B3\B3\B3.Infrastructure\obj\Debug\B3.Infrastructure.csprojResolveAssemblyReference.cache
+H:\Development\B3\B3\B3.Infrastructure\obj\Debug\B3.Infrastructure.dll
+H:\Development\B3\B3\B3.Infrastructure\obj\Debug\B3.Infrastructure.pdb

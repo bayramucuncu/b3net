@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>B3.Infrastructure</id>
+    <version>1.0.5.3</version>
+    <title>B3.Infrastructure</title>
+    <authors>Bayram Üçüncü</authors>
+    <owners>Bayram Üçüncü</owners>
+    <licenseUrl>https://github.com/bayramucuncu/b3net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/bayramucuncu/b3net.git</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/bayramucuncu/b3net/master/b3.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infrastructure tools library</description>
+    <releaseNotes>Includes infrastructure tools like paging, logging, etc.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>B3</tags>
+  </metadata>
+  <files>
+	<file src="bin\Debug\B3.Infrastructure.dll" target="lib" />
+  </files>
+</package>
