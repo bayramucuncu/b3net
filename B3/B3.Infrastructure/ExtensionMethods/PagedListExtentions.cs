@@ -7,12 +7,12 @@ namespace B3.Infrastructure.ExtensionMethods
 {
     public static class PagedListExtentions
     {
-        public static IPagedList<T> ToPagedList<T>(this IEnumerable<T> source, int pageNumber, int pageSize)
+        public static IPagedList ToPagedList<T>(this IEnumerable<T> source, int pageNumber, int pageSize)
         {
             return new PagedList<T>(source, pageNumber, pageSize);
         }
 
-        public static IPagedList<T> ToPagedList<T>(this IQueryable<T> source, int pageNumber, int pageSize)
+        public static IPagedList ToPagedList<T>(this IQueryable<T> source, int pageNumber, int pageSize)
         {
             return new PagedList<T>(source, pageNumber, pageSize);
         }

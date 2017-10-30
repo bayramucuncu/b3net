@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace B3.Infrastructure.PagedList
 {
-    public class PagedList<T> : List<T>, IPagedList<T>
+    public class PagedList<T> : List<T>, IPagedList
     {
         public PagedList(IQueryable<T> source, int pageNumber, int pageSize)
         {

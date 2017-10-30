@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
 
 namespace B3.Infrastructure.PagedList
 {
-    public interface IPagedList<T>: IList<T>
+    public interface IPagedList : IList
     {
         int TotalCount { get; }
         int PageNumber { get; }
